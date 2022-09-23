@@ -1,14 +1,32 @@
 *{
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
 }
 .container{
     width: 970px;
-    height: auto;
+    padding: 30px;
 }
-/* formatting header */
+/* formatting header /header image*/
 .header{
-    width: 700px;
-    height: 300px;
+    width: 900px;
+    height: 85px;
     background-color:rgb(247, 183, 230);
+    border: black solid 2px;
 }
+.header-image-h1{
+    display: flex;
+    margin: 10px;
+}
+.img-header{
+    height:60px; 
+    width: 60px;
+    border-radius: 50%;
+    margin: 1px;
+}
+#header-name{
+    margin-top: 12px;
+    margin-left: 5px;
+    font-family: Chalkduster, fantasy;
+    color: white;
+}
+
