@@ -12,6 +12,7 @@
     background-color:rgb(247, 183, 230);
     text-align: center;
     height: 68px;
+    border-radius: 15px;
 }
 #title-name{
     color: white;
@@ -49,6 +50,7 @@
     font-family: Chalkduster, fantasy;
     text-align: center;
     font-size: 18px;
+    border-radius: 15px;
 }
 .enter{
     height: 31px;
@@ -66,6 +68,8 @@
     padding:19px;
     background-color: silver;
     margin-left: 72px;
+    border-radius: 15px;
+    border: black solid 2px;
 }
 .navBar-img-title-1{
     display: flex;
@@ -80,7 +84,24 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    border: black solid 2px;
 }
 .navtext{
     margin-top: 5px;
+}
+/* formatting left box */
+.box-left{
+    width: 441px;
+    height: 317px;
+    background-color:rgb(247, 183, 230);
+    border-radius: 15px;
+    border: black solid 2px;
+}
+.img-left{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left:70px;
+    margin-top:10px;
+
 }
