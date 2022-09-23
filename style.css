@@ -6,12 +6,22 @@
     width: 970px;
     padding: 30px;
 }
+/* formatting title */
+.title{
+    border: black solid 2px;
+    background-color:rgb(247, 183, 230);
+    text-align: center;
+    height: 68px;
+}
+#title-name{
+    color: white;
+    margin-top: 10px;
+    margin-right: 30px;
+}
 /* formatting header /header image*/
 .header{
-    width: 900px;
+    width: 970px;
     height: 85px;
-    background-color:rgb(247, 183, 230);
-    border: black solid 2px;
 }
 .header-image-h1{
     display: flex;
@@ -27,6 +37,26 @@
     margin-top: 12px;
     margin-left: 5px;
     font-family: Chalkduster, fantasy;
-    color: white;
 }
-
+/* formatting navbar */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width:800px;
+    padding:25px;
+}
+.navBar-img-title-1{
+    display: flex;
+    justify-content: center;
+    margin-left: 38px;
+    text-align: center;
+}
+.img-navbar{
+    border: 0px white solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.navtext{
+    margin-top: 5px;
+}
